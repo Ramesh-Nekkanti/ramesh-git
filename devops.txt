@@ -1,0 +1,6 @@
+working Area                             Stagging Area        Local Repo
+------------                             -------------        ---------
+devops.txt                               git add devops.txt    git commit -m                                                                "first commit"
+when we create a file                    git add *
+It will be in working area-
+git status
