@@ -1,0 +1,46 @@
+working Area                             Stagging Area        Local Repo
+------------                             -------------        ---------
+linux-git.txt                           git add devops.txt    git commit -m "first commit"
+when we create a file                    git add *
+It will be in working area-
+git statu
+
+
+
+Youtube link here: https://youtu.be/RnIVSWFp0ZMs
+
+Requirements:
+Github account
+Linux-server
+
+Steps:
+1. create linuxserver in aws
+connect it
+2.open terminal and paste linux ssh command to connect linuxserver
+3. uname -to check which server
+3. git --v :to check git is installed
+4. sudo yum install git -y
+5. git --version
+6. create localrepository
+git init localrepo
+7. cd localrepo
+8. create a file
+vi gitfile.txt (enter text and save it): it will be Working Area
+9. git status (untracked files)
+10. moving file from Working Area to Stagging Area
+git add *
+git add filename
+11. move to local repo (commit it)
+git commit -m "comment"
+12. git config --global --list (to check username and gmail is configured with git hub)
+13. git config --global user.name "githubusername"
+git config --global user.email "githubemailid"
+14. git config --global --list
+15. git status (if it displays on branch master means in local repo)
+16. create new repo in guthub and copy http url
+17. map local repo to remote repo
+git remote add aliasname url
+18. git push aliasname master (enter username and for password below steps)
+19.in github settings-devopersettings--personalaccesstokens--select all checkboxes-generate->copy token id and save it
+
+
