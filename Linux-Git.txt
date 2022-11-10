@@ -40,6 +40,7 @@ git config --global user.email "githubemailid"
 16. create new repo in guthub and copy http url
 17. map local repo to remote repo
 git remote add aliasname url
+git config -e :to check alias namecreated
 18. git push aliasname master (enter username and for password below steps)
 19.in github settings-devopersettings--personalaccesstokens--select all checkboxes-generate->copy token id and save it
 
